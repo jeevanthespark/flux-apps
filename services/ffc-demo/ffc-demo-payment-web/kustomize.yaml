@@ -1,0 +1,14 @@
+apiVersion: kustomize.toolkit.fluxcd.io/v1
+kind: Kustomization
+metadata:
+  name: env-snd-01-patch
+  namespace: flux-system
+spec:
+  path: ./services/ffc-demo
+  patches:
+    - path: ${ENVIRONMENT}.yaml
+  postBuild:
+    substitute:
+      ENVIRONMENT: ${ENVIRONMENT}
+      NAMESPACE: ${NAMESPACE}
+      HELM_REPO_NAME: ${HELM_REPO_NAME}

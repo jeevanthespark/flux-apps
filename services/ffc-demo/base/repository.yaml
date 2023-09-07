@@ -2,8 +2,10 @@ apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
   name: repository-ffc-demo-payment-web
-  namespace: ffc-demo
+  namespace: ${NAMESPACE}
 spec:
-  type: "oci"
+  # provider: azure
+  type: oci
   interval: 5m
-  url: oci://ssvcdoinfcr3401.azurecr.io/chart
+  timeout: 3m
+  url: oci://${HELM_REPO_NAME}.azurecr.io/helm

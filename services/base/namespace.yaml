@@ -1,6 +1,4 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: ffc-demo
-# labels:
-#   toolkit.fluxcd.io/tenant: ${TEAM_NAME}
+  name: ${NAMESPACE}

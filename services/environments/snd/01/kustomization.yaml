@@ -3,5 +3,5 @@ kind: Kustomization
 resources:
   - ../../../ffc-demo
 
-# patches:
-#   - path: kustomize.yaml
+patches:
+  - path: kustomize.yaml

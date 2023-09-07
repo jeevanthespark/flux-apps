@@ -4,7 +4,7 @@ metadata:
   name: repository-ffc-demo-payment-web
   namespace: ffc-demo
 spec:
-  provider: azure
+  # provider: azure
   type: oci
   interval: 5m
   url: oci://sndcdoinfcr2401p.azurecr.io/helm

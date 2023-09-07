@@ -6,4 +6,4 @@ resources:
 patches:
   - path: kustomize.yaml
     target:
-      kind: Namespace
+      kind: Kustomization

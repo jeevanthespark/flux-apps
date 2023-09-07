@@ -4,7 +4,7 @@ metadata:
   name: env-snd-01-kustomization
   namespace: flux-system
 spec:
-  path: ./environments/snd/01
+  path: ./services/environments/snd/01
   postBuild:
     substitute:
       ENVIRONMENT: "snd"

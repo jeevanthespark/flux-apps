@@ -3,7 +3,6 @@ kind: Kustomization
 namespace: ffc-demo
 resources:
   - ../base
-  - repository.yaml
   - release.yaml
 
 patches:

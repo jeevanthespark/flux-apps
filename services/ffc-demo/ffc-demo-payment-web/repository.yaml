@@ -7,4 +7,5 @@ spec:
   # provider: azure
   type: oci
   interval: 5m
+  timeout: 3m
   url: oci://sndcdoinfcr2401p.azurecr.io/helm

@@ -5,3 +5,5 @@ resources:
 
 patches:
   - path: kustomize.yaml
+    target:
+      namespace: ffc-demo

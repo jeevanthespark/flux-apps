@@ -6,7 +6,7 @@ metadata:
 spec:
   path: ./services/ffc-demo
   patches:
-    - path: ${ENVIRONMENT}.yaml
+    - path: snd.yaml
   postBuild:
     substitute:
       ENVIRONMENT: ${ENVIRONMENT}

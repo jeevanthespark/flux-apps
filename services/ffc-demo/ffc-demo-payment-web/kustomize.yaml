@@ -4,7 +4,7 @@ metadata:
   name: env-snd-01-patch
   namespace: flux-system
 spec:
-  path: ./services/ffc-demo
+  path: ./services/ffc-demo/ffc-demo-payment-web
   patches:
     - path: snd.yaml
   postBuild:

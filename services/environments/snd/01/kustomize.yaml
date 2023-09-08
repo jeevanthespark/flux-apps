@@ -5,6 +5,12 @@ metadata:
   namespace: flux-system
 spec:
   path: ./services/base/kustomize.yaml
+  sourceRef:
+    kind: GitRepository
+    name: ffc-app-repo
+    namespace: flux-system
+  interval: 2m
+  prune: true
   postBuild:
     substitute:
       ENVIRONMENT: "snd"

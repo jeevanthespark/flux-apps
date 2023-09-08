@@ -4,4 +4,3 @@ resources:
   - ../base                       #namespace
   - ffc-demo-payment-web/kustomize.yaml  #service1
   
-

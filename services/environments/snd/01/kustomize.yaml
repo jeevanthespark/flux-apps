@@ -4,7 +4,7 @@ metadata:
   name: env-snd-01-kustomization
   namespace: flux-system
 spec:
-  path: ./services/base/kustomize.yaml
+  path: ./services/base
   sourceRef:
     kind: GitRepository
     name: ffc-app-repo

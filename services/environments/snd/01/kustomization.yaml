@@ -3,8 +3,7 @@ kind: Kustomization
 metadata:
   namespace: flux-system
 resources:
-  # - ../../../base
-  - kustomize.yaml
+  - ../../../base
 
-# patches:
-#   - path: kustomize.yaml
+patches:
+  - path: kustomize.yaml

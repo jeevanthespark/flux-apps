@@ -3,7 +3,7 @@ kind: Kustomization
 metadata:
   namespace: flux-system
 spec:
-  path: ./services/base
+  # path: ./services/base
   postBuild:
     substitute:
       NAMESPACE: ${NAMESPACE}

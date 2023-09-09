@@ -5,8 +5,9 @@ metadata:
   namespace: flux-system
 spec:
   path: ./services/ffc-demo/ffc-demo-payment-web
-  patch:
-    - path: snd.yaml
+  patches:
+    - patch:
+        - path: snd.yaml
   postBuild:
     substitute:
       ENVIRONMENT: ${ENVIRONMENT}

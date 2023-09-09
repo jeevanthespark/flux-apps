@@ -2,7 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: HelmRepository
 metadata:
   name: repository-ffc-demo-payment-web
-  namespace: ${NAMESPACE}
+  namespace: ffc-demo
 spec:
   # provider: azure
   type: oci

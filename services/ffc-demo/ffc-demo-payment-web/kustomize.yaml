@@ -10,5 +10,4 @@ spec:
   postBuild:
     substitute:
       ENVIRONMENT: ${ENVIRONMENT}
-      NAMESPACE: ${NAMESPACE}
       HELM_REPO_NAME: ${HELM_REPO_NAME}

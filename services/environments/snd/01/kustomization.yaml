@@ -3,6 +3,7 @@ kind: Kustomization
 metadata:
   namespace: flux-system
 resources:
+  - ../../../base
   - ../../../ffc-demo
 
 patches:

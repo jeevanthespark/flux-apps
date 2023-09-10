@@ -11,8 +11,8 @@ spec:
     kind: GitRepository
     name: ffc-app-repo
     namespace: flux-system
-  patches:
-    - patch: snd.yaml
+  # patches:
+  #   - patch: snd.yaml
   postBuild:
     substitute:
       ENVIRONMENT: ${ENVIRONMENT}

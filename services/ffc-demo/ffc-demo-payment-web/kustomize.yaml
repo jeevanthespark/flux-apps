@@ -5,6 +5,12 @@ metadata:
   namespace: flux-system
 spec:
   path: ./services/ffc-demo/ffc-demo-payment-web
+  interval: 1m
+  prune: true
+  sourceRef:
+    kind: GitRepository
+    name: ffc-app-repo
+    namespace: flux-system
   patches:
     - patch: snd.yaml
   postBuild:

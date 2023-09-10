@@ -3,6 +3,3 @@ kind: Kustomization
 namespace: ffc-demo
 resources:
   - release.yaml
-
-patches:
-  - path: kustomize.yaml

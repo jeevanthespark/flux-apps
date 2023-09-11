@@ -12,3 +12,7 @@ spec:
   timeout: 3m
   prune: true
   path: ./services/environments/${ENVIRONMENT}/01
+  postBuild:
+    substitute:
+      ENVIRONMENT: "snd"
+      HELM_REPO_NAME: "sndcdoinfcr2401p"

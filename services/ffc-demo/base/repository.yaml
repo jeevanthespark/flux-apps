@@ -7,4 +7,4 @@ spec:
   type: oci
   interval: 5m
   timeout: 3m
-  url: oci://${HELM_REPO_NAME}.azurecr.io/helm
+  url: oci://${ACR_NAME}.azurecr.io/helm

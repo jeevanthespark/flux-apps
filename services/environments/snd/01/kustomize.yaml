@@ -8,4 +8,4 @@ spec:
   postBuild:
     substitute:
       ENVIRONMENT: "snd"
-      HELM_REPO_NAME: "sndcdoinfcr2401p"
+      ACR_NAME: "sndcdoinfcr2401p"

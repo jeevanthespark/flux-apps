@@ -12,7 +12,3 @@ spec:
   timeout: 3m
   prune: true
   path: ./services/environments/${ENVIRONMENT}/01
-  postBuild:
-    substitute:
-      ENVIRONMENT: "snd"
-      ACR_NAME: "sndcdoinfcr2401p"

@@ -8,7 +8,7 @@ spec:
     kind: GitRepository
     name: ffc-app-repo
     namespace: flux-system
-  interval: 1m
+  interval: 2m
   timeout: 3m
   prune: true
   path: ./services/environments/${ENVIRONMENT}/01

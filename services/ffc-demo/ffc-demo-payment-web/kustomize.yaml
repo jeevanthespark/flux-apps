@@ -5,7 +5,7 @@ metadata:
   namespace: ffc-demo
 spec:
   path: ./services/ffc-demo/ffc-demo-payment-web
-  interval: 1m
+  interval: 2m
   prune: true
   sourceRef:
     kind: GitRepository

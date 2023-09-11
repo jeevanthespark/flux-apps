@@ -4,7 +4,6 @@ metadata:
   name: repository-ffc-demo-payment-web
   namespace: ffc-demo
 spec:
-  # provider: azure
   type: oci
   interval: 5m
   timeout: 3m

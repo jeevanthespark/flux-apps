@@ -16,3 +16,4 @@ spec:
     substitute:
       ENVIRONMENT: ${ENVIRONMENT}
       ACR_NAME: ${ACR_NAME}
+      NAMESPACE: "ffc-demo"

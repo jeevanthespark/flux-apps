@@ -7,5 +7,3 @@ resources:
 
 patches:
   - path: kustomize.yaml
-    target:
-      kind: Kustomization

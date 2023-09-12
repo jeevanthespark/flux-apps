@@ -5,9 +5,7 @@ resources:
   - repository.yaml
 
 patches:
-  - path: ../../base/kustomize.yaml
-    target:
-      kind: Kustomization
   - path: kustomize.yaml
     target:
       kind: Kustomization
+  - path: ../../base/kustomize.yaml

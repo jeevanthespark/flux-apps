@@ -4,7 +4,7 @@ metadata:
   name: ffc-demo
   namespace: ffc-demo
 spec:
-  path: ./services/ffc-demo/base
+  path: ./services/ffc-demo
   interval: 5m
   timeout: 3m
   prune: true

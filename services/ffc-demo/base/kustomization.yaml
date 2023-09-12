@@ -9,3 +9,5 @@ patches:
     target:
       kind: Kustomization
   - path: ../../base/kustomize.yaml
+    target:
+      kind: Kustomization

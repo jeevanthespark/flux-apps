@@ -6,12 +6,6 @@ metadata:
 spec:
   path: ./services/environments/snd/01
   interval: 15m
-  timeout: 10m
-  prune: true
-  sourceRef:
-    kind: GitRepository
-    name: ffc-app-repo
-    namespace: flux-system
   postBuild:
     substitute:
       ENVIRONMENT: "snd"

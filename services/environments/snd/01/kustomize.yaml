@@ -9,4 +9,4 @@ spec:
   postBuild:
     substitute:
       ENVIRONMENT: "snd"
-      ACR_NAME: ${ACR_NAME}
+      # ACR_NAME: ${ACR_NAME}

@@ -5,7 +5,8 @@ metadata:
   name: main
 spec:
   path: ./services/environments/snd/01
-  interval: 5m
+  interval: 15m
+  timeout: 10m
   postBuild:
     substitute:
       ENVIRONMENT: "snd"

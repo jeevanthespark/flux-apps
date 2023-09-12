@@ -6,7 +6,7 @@ resources:
   - ../../../ffc-demo/base/kustomize.yaml
   - ../../../ffc-demo/snd/01
 
-# patches:
-#   - path: kustomize.yaml
-#     target:
-#       kind: Kustomization
+patches:
+  - path: kustomize.yaml
+    target:
+      kind: Kustomization

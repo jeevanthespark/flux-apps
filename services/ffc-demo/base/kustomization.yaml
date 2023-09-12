@@ -4,10 +4,10 @@ resources:
   - ../../base
   - repository.yaml
 
-patches:
-  - path: kustomize.yaml
-    target:
-      kind: Kustomization
+# patches:
+#   - path: kustomize.yaml
+#     target:
+#       kind: Kustomization
   # - path: ../../base/kustomize.yaml
   #   target:
   #     kind: Kustomization

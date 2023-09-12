@@ -15,5 +15,5 @@ spec:
   postBuild:
     substitute:
       ENVIRONMENT: ${ENVIRONMENT}
-      ACR_NAME: ${ACR_NAME}
+      ACR_NAME: "sndcdoinfcr2401p"
       NAMESPACE: "ffc-demo"

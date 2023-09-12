@@ -1,11 +1,13 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - ../../base/kustomize.yaml
   - ../../base
   - repository.yaml
 
 patches:
+  - path: ../../base/kustomize.yaml
+    target:
+      kind: Kustomization
   - path: kustomize.yaml
     target:
       kind: Kustomization

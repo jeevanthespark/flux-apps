@@ -4,7 +4,7 @@ metadata:
   namespace: flux-system
   name: main
 spec:
-  path: ./services/environments/snd/01
+  # path: ./services/environments/snd/01
   interval: 15m
   postBuild:
     substitute:

@@ -4,7 +4,7 @@ metadata:
   name: services-base
   namespace: flux-system
 spec:
-  path: ./services/base
+  # path: ./services/base
   interval: 15m
   timeout: 10m
   prune: true
